@@ -1,0 +1,83 @@
+footer {
+  background-image: url(images/our-services.png),
+    linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-top: 201px;
+  height: 432px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 109px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  
+}
+.navigation-general {
+  display: flex;
+  justify-content:space-between;
+  gap: 177px;
+}
+.footer-trafalgar {
+  display: flex;
+  justify-content: space-between;
+  gap: 145px;
+}
+.text2 {
+  font-size: 1.8rem;
+  line-height: 1.56;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 31px;
+}
+.text3 {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: white;
+}
+.navigation-general li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav li a {
+  font-size: 1.8rem;
+  line-height: 2.11;
+}
+
+.logo-footer {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+.logo-wrapper-footer {
+  font-size: 26px;
+  line-height: 1.23;
+  padding: 5px 15px;
+  color: #458ff6;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+}
+.help li:nth-child(1) {
+    font-weight: 700;
+    font-size: 2.0rem;
+  }
+.region li:nth-child(1) {
+    font-weight: 700;
+    font-size: 2.0rem;
+  }
+.company li:nth-child(1) {
+    font-weight: 700;
+    font-size: 2.0rem;
+  }
+

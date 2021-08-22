@@ -1,0 +1,123 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background-image: url(images/hero.png);
+  background-repeat: no-repeat;
+  background-position: top 160px left 0;
+}
+.wrapper {
+  display: flex;
+  gap: 8px;
+}
+.logo-wrapper {
+  font-size: 26px;
+  line-height: 1.23;
+  padding: 5px 15px;
+  color: white;
+  background-color: #458ff6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+}
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #233348;
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 62px;
+}
+.header {
+  font-size: 1.8rem;
+  line-height: 1.28;
+}
+.header ul a {
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.hero-content {
+  padding-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.33;
+  text-decoration: none;
+}
+.hero-text {
+  align-self: center;
+}
+.hero-column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 693px;
+  padding-right: 109px;
+}
+.hero-column-text h1 {
+  margin-bottom: 25px;
+}
+.hero-column-text p {
+  margin-bottom: 45px;
+}
+.hero-column-button {
+  min-width: 200px;
+}
+.hero-column-button a {
+  background-color: #458ff6;
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.33;
+  padding: 30px 51px;
+  display: inline-block;
+  border-radius: 55px;
+}
+.hero-column-text a {
+  text-align: left;
+}
+.hero-text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.17;
+  color: #000000;
+}
+.hero-text p {
+  font-size: 21px;
+  line-height: 1.52;
+  color: #7d7987;
+}
+.buttonsCenter{
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  text-align: center;
+  }
+.buttonsCenter a{
+  background-color: white;
+  border-radius: 55px;
+  text-decoration: none;
+  color: #458FF6; 
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 3.33;
+  display: inline-block;
+  }

@@ -1,0 +1,69 @@
+.feedback{
+    width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 24px;
+    background-image: url(images/our-services.png),
+    url(images/hero.png), 
+    linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-repeat: no-repeat;
+    background-position: top right, top 271px left 0;
+}
+.feedback-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    align-items: center;
+    padding-bottom: 89px;
+}
+.feedback h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-bottom: 93px;
+    text-align: center;
+}
+.feedback h2::after {
+    content: "";
+    width: 56px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+.person-info h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.18;
+    color: #FFFFFF;
+    padding-right: 110px;
+} 
+.person-info p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.67;
+    color: #FFFFFF;
+} 
+.image img{
+    border-radius: 65px;
+}
+.image{
+    padding-left: 118px;
+    padding-right: 29px;
+}
+.feedback-box-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person-words{
+    font-size: 1.9rem;
+    line-height: 1.58;
+    color: #FFFFFF;
+    padding-right: 118px;
+}
